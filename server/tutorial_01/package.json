@@ -4,7 +4,8 @@
   "description": "Objective is to learn concepts related to message queues",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server",
+    "publisher": "node ./publisher.js",
+    "consumer": "node ./consumer.js",
     "test": "test"
   },
   "repository": {
