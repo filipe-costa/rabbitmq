@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq",
+  "version": "0.0.1",
+  "description": "Objective is to learn concepts related to message queues",
+  "main": "index.js",
+  "scripts": {
+    "emit_logs": "node ./emit_log_topic.js",
+    "receive_logs": "node ./receive_logs_topic.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipe-costa/rabbitmq.git"
+  },
+  "author": "Filipe Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipe-costa/rabbitmq/issues"
+  },
+  "homepage": "https://github.com/filipe-costa/rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  }
+}
